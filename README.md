@@ -150,3 +150,18 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_link_libraries(${PROJECT_NAME} sfml-graphics sfml-audio)
 ```
+
+## END OF GUIDE
+## *BEGINNING OF ANALYSIS: Learning outcomes*
+
+#### Game 1
+
+*Learned about what is in the most basic games possible, what is necessary to render a game, how a game loop operates at the most basic level. Learned about event polling and how a game gets information from the user.*
+
+#### Game 2
+
+*Used a Object Oriented Approach to turn the code from Game 1 into a structured, modularized, and reusable component-based game which uses updated states to check for changes in the screen. This is done by using the update and render functions: the update function updates the values behind the scenes, while the render function shows them to the user by drawing them.*
+
+#### Game 3
+
+*Created an enemy with a position, scale, color, etc. Figured out how to show that enemy to the screen and how to keep track of the mouse position, both in the absolute sense(relative to the screen), and in the relative sense(to the window). Will be learning how to do the same thing but relative to "the View", idk what that is yet. Used a frame limiter to limit to 60fps. Used Vector2f but had trouble grokking its' use.*
