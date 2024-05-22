@@ -168,3 +168,6 @@ target_link_libraries(${PROJECT_NAME} sfml-graphics sfml-audio)
 
 ### Game 4
 *Created a moving enemy based on crand, a (pseudo) random number generator, rendered the enemy in that random location while also accounting for the size of the enemy. Moved the enemy in one or two directions(hard code). Let's see where it goes! Collision detection would be awesome here.*
+
+### Game 5 
+*Removed enemies by clicking them, using a check for the mouse position within the bounds of the enemy.*
