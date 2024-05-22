@@ -165,3 +165,6 @@ target_link_libraries(${PROJECT_NAME} sfml-graphics sfml-audio)
 #### Game 3
 
 *Created an enemy with a position, scale, color, etc. Figured out how to show that enemy to the screen and how to keep track of the mouse position, both in the absolute sense(relative to the screen), and in the relative sense(to the window). Will be learning how to do the same thing but relative to "the View", idk what that is yet. Used a frame limiter to limit to 60fps. Used Vector2f but had trouble grokking its' use.*
+
+### Game 4
+*Created a moving enemy based on crand, a (pseudo) random number generator, rendered the enemy in that random location while also accounting for the size of the enemy. Moved the enemy in one or two directions(hard code). Let's see where it goes! Collision detection would be awesome here.*
