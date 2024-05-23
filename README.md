@@ -3,7 +3,7 @@
 Learning to use SFML with C++ for making basic games and learning along the way. Built using CMake.
 
 _The first issue was setting up SFML (Simple and Fast Multimedia Library) with C++ in Visual Studio Code (VSCode) in my Linux system(Manjaro).
-I made a guide to guide the builder/any person interested through the process:_
+I made a guide to guide any person interested through the process:_
 
 ## 1. Install SFML
 
